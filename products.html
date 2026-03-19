@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | Balaji Global</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header" style="height: 80px; background-color: rgba(255, 255, 255, 0.98); box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/logo.png" alt="Balaji Global Logo" style="height: 60px; width: auto;">
+            </a>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="industry.html">Industry</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="formula.html">Why Formula</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="contact.html" class="btn btn-secondary" style="border-radius: 30px; font-weight: 800; padding: 14px 28px; font-size: 13px;">GET QUOTE</a>
+            </div>
+            
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="mobile-nav" id="mobile-menu">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="industry.html">Industry</a>
+                <a href="news.html">News</a>
+                <a href="formula.html">Why Formula</a>
+                <a href="sustainability.html">Sustainability</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Title -->
+        <section class="section" style="background-color: var(--light-bg); border-bottom: 1px solid #eee;">
+            <div class="container" style="text-align: center;">
+                <h1 style="font-size: 48px; color: var(--primary-color); margin-bottom: 10px;">Our Comprehensive Range</h1>
+                <p style="font-size: 20px; color: var(--text-muted); max-width: 800px; margin: 0 auto;">Explore our diverse portfolio of eco-friendly packaging solutions tailored for every need.</p>
+            </div>
+        </section>
+
+        <!-- Product Details Grid -->
+        <section class="section">
+            <div class="container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 60px;">
+                <!-- Product 1 -->
+                <div class="product-detail-card" style="display: flex; flex-direction: column; gap: 20px;">
+                    <img src="./assets/images/category-paper-cup.png" alt="Paper Cups" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                    <h2 style="font-size: 32px; color: var(--primary-color);">Premium Paper Cups</h2>
+                    <p>Designed for both high-performance and aesthetics, our paper cups use food-grade materials and are available in various sizes from 4oz up to 24oz. Ideal for coffee shops, offices, and airlines.</p>
+                    <ul style="list-style: check; margin-left: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <li>Hot & Cold Beverage Range</li>
+                        <li>Leak-Proof Lids Available</li>
+                        <li>Custom Branding Options</li>
+                        <li>High Durability</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" style="width: fit-content;">ENQUIRE NOW</a>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-detail-card" style="display: flex; flex-direction: column; gap: 20px;">
+                    <img src="./assets/images/category-takeaway.png" alt="Takeaway Boxes" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                    <h2 style="font-size: 32px; color: var(--secondary-color);">Eco-Friendly Meal Boxes</h2>
+                    <p>Our takeaway containers are built to preserve the temperature and texture of your food. Grease-resistant and microwave-safe, they are the first choice for modern cloud kitchens.</p>
+                    <ul style="list-style: check; margin-left: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <li>Microwave Safe</li>
+                        <li>Grease Resistant</li>
+                        <li>Stackable Design</li>
+                        <li>100% Recyclable</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary" style="width: fit-content; background-color: var(--secondary-color);">VIEW SIZES</a>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-detail-card" style="display: flex; flex-direction: column; gap: 20px;">
+                    <img src="./assets/images/category-food-container.png" alt="Bagasse Tableware" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                    <h2 style="font-size: 32px; color: var(--accent-green);">Bagasse Tableware</h2>
+                    <p>Truly nature-first, our sugarcane bagasse tableware is 100% compostable within 90 days. Sturdier than plastic, it handles heavy and liquid food with ease.</p>
+                    <ul style="list-style: check; margin-left: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <li>90-Day Compostable</li>
+                        <li>Oil & Water Resistant</li>
+                        <li>Premium Natural Finish</li>
+                        <li>Various Shapes/Dept</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" style="width: fit-content; background-color: var(--accent-green);">EXPLORE MORE</a>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-detail-card" style="display: flex; flex-direction: column; gap: 20px;">
+                    <img src="./assets/images/category-lids.png" alt="Lids & Accessories" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                    <h2 style="font-size: 32px; color: var(--accent-red);">Lids & Accessories</h2>
+                    <p>The perfect finishing touch. From wooden cutlery to biodegradable straws and snug-fit lids, we provide the complete setup for sustainable foodservice.</p>
+                    <ul style="list-style: check; margin-left: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <li>High Precision Fit</li>
+                        <li>Sustainable Materials</li>
+                        <li>BPA Free</li>
+                        <li>Wide Compatibility</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary" style="width: fit-content;">GET CATALOGUE</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                <div style="max-width: 300px;">
+                    <img src="./assets/images/logo.png" alt="Logo" style="height: 60px; filter: brightness(0) invert(1);">
+                    <p style="margin-top: 15px; opacity: 0.6; font-size: 14px;">Premium eco-friendly packaging solutions for the global food industry.</p>
+                </div>
+                <div style="display: flex; gap: 20px;">
+                    <a href="https://www.linkedin.com/company/jprglobalexports" target="_blank" style="color: #fff; font-size: 24px;"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/jprglobalexports" target="_blank" style="color: #fff; font-size: 24px;"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jprglobalexports/" target="_blank" style="color: #fff; font-size: 24px;"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.globallinker.com/t92Dm" target="_blank" style="color: #fff; font-size: 24px;" title="Indian Trade Portal"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom" style="text-align: center; padding: 30px 0;">
+                <p>&copy; 2026 Balaji Global. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
